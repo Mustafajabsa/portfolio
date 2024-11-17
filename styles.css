@@ -819,6 +819,7 @@ html {
     display: none;
   }
   .home-sci {
+    margin-top: 150px;
     display: flex;
     flex-direction: row;
     margin-left: 10px;
@@ -904,6 +905,14 @@ html {
   }
   #talk {
     display: none;
+  }
+  .cv{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .home-content h1 span:first-child {
+    display: block;
+    margin-top: 10px;
   }
 }
 
