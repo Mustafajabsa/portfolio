@@ -10,7 +10,7 @@
 body {
   font-family: Arial, sans-serif;
   color: #fff;
-  background-color: #0a0e27; /* Dark blue background */
+  background-color: #0a0e27; 
 }
 
 .navbar {
@@ -832,18 +832,7 @@ html {
   .home-content p {
     font-size: 1rem;
   }
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 0.7rem 1.5rem;
-    border: none;
-    cursor: pointer;
-    font-size: 0.7rem;
-    margin-top: 0.7rem;
-    transition: background-color 0.3s;
-    margin: 5px;
-    margin-top: 100px;
-  }
+ 
   .hire {
     font-size: 0.7rem;
     margin-top: 0.7rem;
@@ -927,16 +916,7 @@ html {
   #talk {
     display: none;
   }
-  button {
-    padding: 0.7rem 1.2rem;
-    border: none;
-    cursor: pointer;
-    font-size: 0.5rem;
-    margin-top: 0.5rem;
-    transition: background-color 0.3s;
-    margin: 2px;
-    margin-top: 100px;
-  }
+ 
   .hire {
     margin-top: 100px;
   }
