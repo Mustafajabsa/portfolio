@@ -170,6 +170,10 @@ button:hover {
   transform: translateY(-50%);
   color: white;
 }
+.close-menu {
+  margin-right: 20%;
+  margin-bottom: 520px;
+}
 #check {
   display: none;
 }
@@ -880,28 +884,52 @@ html {
   #about button {
     margin-top: 5px;
   }
-
   .timeline {
     position: relative;
-    max-width: 9000px;
+    max-width: 1200px;
     margin: 100px auto;
   }
   .container {
-    padding: 0px 50px;
+    padding: 10px 50px;
     position: relative;
-    width: 50%;
+    width: 320px;
     background: #0a0e27;
   }
   .text-box {
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px;
     background: #1a2338;
     border-radius: 6px;
-    font-size: 13px;
+    font-size: 15px;
     border: 2px solid #007bff;
   }
   .text-box h2 {
     font-size: 16px;
     color: #007bff;
+  }
+  .left-container {
+    position: relative;
+    margin-left: -50px;
+    margin-bottom: 30px;
+  }
+  .right-container {
+    position: relative;
+    margin-left: -150px;
+    margin-bottom: 30px;
+  }
+  .right-container img {
+    left: -20px;
+    margin-top: 18px;
+  }
+  .left-container img {
+    margin-top: 18px;
+  }
+  .container img {
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
   }
   .skills_main {
     width: 100%;
@@ -909,5 +937,44 @@ html {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 30px;
     grid-column-gap: 50px;
+  }
+  .timeline::after {
+    content: "";
+    width: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    font-size: 50px;
+    height: 110px;
+    width: 200px;
+  }
+  #talk {
+    display: none;
+  }
+  button {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s;
+    margin: 2px;
+    margin-top: 100px;
+  }
+  .hire {
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    margin-top: 100px;
+  }
+  .cv {
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  #about button {
+    margin-top: 5px;
   }
 }
