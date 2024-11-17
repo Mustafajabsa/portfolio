@@ -66,9 +66,9 @@ body {
 }
 .logo:hover {
   background: linear-gradient(300deg, #007bff, #02ffb7);
-  -webkit-background-clip: text; /* For webkit-based browsers */
-  -webkit-text-fill-color: transparent; /* Make the text transparent for the background to show through */
-  background-clip: text; /* Standard syntax */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text; 
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -109,9 +109,9 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   background: linear-gradient(300deg, #007bff, #02ffb7);
-  -webkit-background-clip: text; /* For webkit-based browsers */
-  -webkit-text-fill-color: transparent; /* Make the text transparent for the background to show through */
-  background-clip: text; /* Standard syntax */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text; 
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -185,13 +185,13 @@ button:hover {
   justify-content: center;
   padding: 4rem;
   text-align: left;
-  flex-direction: row; /* Change direction to row */
+  flex-direction: row;
 }
 
 .home-content {
   margin: 40px;
   max-width: 600px;
-  margin-left: 2rem; /* Add some space between image and content */
+  margin-left: 2rem; 
 }
 
 .home-content h1 {
@@ -305,7 +305,7 @@ button:hover {
 
 /* Custom styling for typing effect to retain space */
 .typing::after {
-  content: " "; /* Add a space to the end */
+  content: " "; 
   display: inline-block;
 }
 
@@ -330,11 +330,11 @@ button:hover {
   border: 4px solid #007bff;
 }
 .about-content h2 span:first-child {
-  color: #ffffff; /* White color for "Contact" */
+  color: #ffffff; 
 }
 
 .about-content h2 span:last-child {
-  color: #007bff; /* Blue color for "Me" */
+  color: #007bff; 
 }
 .about-content h3 {
   color: #007bff;
@@ -440,7 +440,7 @@ button:hover {
   left: 32px;
 }
 .education h2 span:last-child {
-  color: #007bff; /* Blue color for "Me" */
+  color: #007bff; 
 }
 
 #education {
@@ -483,47 +483,13 @@ button:hover {
   margin-bottom: 0.5rem;
 }
 .journey-content h2 span:first-child {
-  color: #ffffff; /* White color for "Contact" */
+  color: #ffffff;
 }
 
 .journey-content h2 span:last-child {
-  color: #007bff; /* Blue color for "Me" */
-}
-
-/* Skills Section 
-#skills {
-  padding: 4rem;
-  background-color: #0a0e27;
-}
-
-.skills-content {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.skills-content .card {
-  background: #1a2338;
-  padding: 1.5rem;
-  width: 300px;
-  border-radius: 10px;
-}
-
-.skills-content ul {
-  list-style: none;
-}
-
-.skills-content li {
-  font-size: 1rem;
-  color: #d1d1d1;
-  margin-top: 0.5rem;
-}
-.section-title span:last-child {
   color: #007bff; 
 }
-*/
+/*skills section*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap");
 
@@ -550,8 +516,8 @@ button:hover {
 }
 .skills_head h2 span {
   background: linear-gradient(300deg, #007bff, #02ffb7);
-  -webkit-background-clip: text; /* For webkit-based browsers */
-  -webkit-text-fill-color: transparent; /* Make the text transparent for the background to show through */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
   background-clip: text;
 }
 .skills_main {
@@ -694,18 +660,18 @@ button:hover {
 }
 
 .contact-content h2 {
-  font-size: 3rem; /* Increased font size */
-  font-weight: bold; /* Added bold text */
+  font-size: 3rem; 
+  font-weight: bold; 
   margin-bottom: 2rem;
   padding-bottom: 0.5rem;
 }
 
 .contact-content h2 span:first-child {
-  color: #ffffff; /* White color for "Contact" */
+  color: #ffffff; 
 }
 
 .contact-content h2 span:last-child {
-  color: #007bff; /* Blue color for "Me" */
+  color: #007bff;
 }
 
 form {
@@ -715,7 +681,7 @@ form {
 }
 
 form input {
-  width: calc(50% - 0.5rem); /* Adjust width for side-by-side alignment */
+  width: calc(50% - 0.5rem); 
   padding: 1rem;
   border: 1px solid #007bff;
   border-radius: 5px;
@@ -724,13 +690,13 @@ form input {
 }
 
 form textarea {
-  width: 100%; /* Ensure message field takes full width */
+  width: 100%;
   padding: 1rem;
   border: 1px solid #007bff;
   border-radius: 5px;
   background-color: #1a2338;
   color: #ffffff;
-  height: 200px; /* Increased height for the message field */
+  height: 200px; 
 }
 
 form input::placeholder,
@@ -739,7 +705,7 @@ form textarea::placeholder {
 }
 
 form button {
-  width: 150px; /* Adjusted width for medium button */
+  width: 150px; 
   padding: 0.7rem;
   border-radius: 5px;
   margin-top: 1.5rem;
@@ -761,8 +727,8 @@ html {
 
 .scroll {
   opacity: 0;
-  transform: translateY(50px); /* Start from below */
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Faster animation */
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out; 
 }
 
 .scroll-active {
@@ -804,6 +770,11 @@ html {
 }
 
 @media (max-width: 760px) {
+  .logo {
+    font-size: 30px;
+    height: 70px;
+    width: 120px;
+  }
   .menu ul {
     flex-direction: column;
     align-items: center;
